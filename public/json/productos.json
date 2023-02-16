@@ -1,0 +1,12 @@
+[
+{"id": 1, "nombre": "Ramillete flores secas", "precio": 2000, "stock": 10, "imagen":"../public/images/cardoAzul.jpg", "descripcion":"Ramillete de flores secas de cardo azul conservadas", "categoria": "flores secas"},
+{"id": 2, "nombre": "Jarrones de ceramica/gres", "precio": 7000, "stock": 6, "imagen": "../public/images/deco10.jpg", "descripcion": "Jarron de gres color arena", "categoria": "decoracion"},
+{"id": 3, "nombre": "Flor solapa", "precio": 3500, "stock": 8, "imagen": "../public/images/florDesolapa2.jpg", "descripcion": "Pin de solapa hombre", "categoria": "para regalar"},
+{"id": 4, "nombre": "Jarrones de ceramica/gres", "precio": 7000, "stock": 4, "imagen": "../public/images/Vase-ceramique-kaki.jpg", "descripcion": "Jarron de gres color kaki", "categoria": "decoracion"},
+{"id": 5, "nombre": "guirnalda", "precio": 4500, "stock": 6, "imagen": "../public/images/guirnalda1.jpg", "descripcion": "Guirnalda para pared de flores secas", "categoria": "para regalar"},
+{"id": 6, "nombre": "horquilla", "precio": 3500, "stock": 6, "imagen": "../public/images/horquilla1.jpg", "descripcion": "Horquilla de novias", "categoria":"para regalar"},
+{"id": 7, "nombre": "corona", "precio": 6500, "stock": 4, "imagen": "../public/images/Couronne-Caials-fleurs-sechees.jpg", "descripcion": "Corona de flores secas conservadas", "categoria": "para regalar"},
+{"id": 8, "nombre": "aplique cristal", "precio": 5000, "stock": "3", "imagen": "../public/images/deco5.jpg", "categoria": "decoracion"},
+{"id": 9, "nombre": "Flor solapa", "precio": 3500, "stock": 6, "imagen": "../public/images/florDesolapa1.jpg", "descripcion": "Pin de solapa hombre", "categoria": "para regalar"}
+
+]

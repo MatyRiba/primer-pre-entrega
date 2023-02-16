@@ -1,12 +1,10 @@
 import CartWidget from "./CartWidget"
 
-
-
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-secondary bg-secondary">
     <div className="container">
-      <a className="navbar-brand" href="#">La Florita.Slow Home</a>
+      <img className="navbar-brand" src="../logo/LaFlorita2 (2).jpg"></img>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -19,13 +17,13 @@ const Navbar = () => {
             <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
               <li><a className="dropdown-item" href="#">Flores Secas</a></li>
               <li><a className="dropdown-item" href="#">Decoracion</a></li>
-              <li><a className="dropdown-item" href="#">Eventos</a></li>
+              <li><a className="dropdown-item" href="#">Para Regalar</a></li>
             </ul>
           </li>
         </ul>
       </div>
     </div>
-    <button type="button" class="btn btn-light mx-4"><CartWidget/></button>
+    <button type="button" className="btn btn-light mx-4"><CartWidget/></button>
     
   </nav>
   
