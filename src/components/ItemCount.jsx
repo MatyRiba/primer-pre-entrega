@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const ItemCount = ({stock}) => {
     const [items, setItems] = useState (1);
@@ -24,13 +24,17 @@ const ItemCount = ({stock}) => {
         }
     }
 
+    useEffect(() => {
+        setItemStock (stock)
+    }, [stock])
 
+    
 
   return (
-    <div className='container'>
+    <div className='container d-flex justify-content-center p-3'>
         <div className="row my-1">
             <div className="col">
-                <div className="btn-group">
+                <div className="btn-group mx-4">
                     <button className="btn btn-warning" onClick={descensoStock}>-</button>
                     <button className="btn btn-warning">{items}</button>
                     <button className="btn btn-warning"onClick={aumentoStock}>+</button>
